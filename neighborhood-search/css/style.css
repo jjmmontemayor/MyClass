@@ -1,0 +1,101 @@
+html,body{width:100%;font-family:Arial, Helvetica, sans-serif;}
+
+#content-wrapper
+{
+width:1000px;
+position:relative;
+margin: 0 auto;
+}
+#content
+{
+padding:20px;
+height:300px;
+}
+#header
+{
+height:50px;
+}
+.form-wrap
+{
+position:relative;
+}
+.form
+{
+color: #0a3643;
+text-align:left;
+font-weight: bold;
+}
+.pad10
+{
+padding:10px;
+}
+.f25
+{
+font-size:25px;
+}
+.brown'
+{
+color:#eeeeee;
+}
+p
+{
+padding:0;
+margin:0;
+}
+.zip
+{
+position:absolute;
+top:10px;
+left:0px;
+width:350px;
+height:40px;
+border: 5px solid #8abac8;
+background: #bce8f5;
+}
+.city-state
+{
+position:absolute;
+top:10px;
+right:0px;
+width:400px;
+border: 5px solid #8abac8;
+background: #bce8f5;
+}
+#or
+{
+position:absolute;
+top:10px;
+left:430px;
+font-size:25px;
+}
+.submit
+{
+position:absolute;
+top:200px;
+left:330px;
+
+}
+.form input, select
+{
+border:1px solid #8abac8;
+height: 40px;
+width:200px;
+color: #8da365;
+font-size:20px;
+padding:5px;
+text-align:center;
+}
+
+.form #zip-code
+{
+margin-right: 40px;
+}
+.form #city
+{
+margin-right:98px;
+}
+.form #state
+{
+margin-right: 83px;
+}
+

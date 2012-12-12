@@ -1,0 +1,78 @@
+/*!
+ * Ext JS Library 3.2.1
+ * Copyright(c) 2006-2010 Ext JS, Inc.
+ * licensing@extjs.com
+ * http://www.extjs.com/license
+ */
+.add {
+    background-image: url(../images/buttons/add.png) !important;
+}
+.edit {
+    background-image: url(../images/buttons/edit.png) !important;
+}
+.start {
+    background-image: url(../images/buttons/start.png) !important;
+}
+.delete {
+    background-image: url(../images/buttons/delete.png) !important;
+}
+.add16 {
+    background-image: url(../images/buttons/add16.gif) !important;
+}
+.add24 {    
+background-image: url(../images/buttons/add24.gif) !important;
+}
+.node {    
+background-image: url(../images/buttons/node.gif) !important;
+}
+.cookie {    
+background-image: url(../images/buttons/cookie.gif) !important;
+}
+.view {    
+background-image: url(../images/buttons/magglass.gif) !important;
+}
+.generate {    
+background-image: url(../images/buttons/generate2.png) !important;
+}
+.configure {    
+background-image: url(../images/buttons/properties.png) !important;
+}
+.settings {    
+background-image: url(../images/buttons/wrench.gif) !important;
+}
+.include {    
+background-image: url(../images/buttons/attach.gif) !important;
+}
+.existing {    
+background-image: url(../images/buttons/option.png) !important;
+}
+.new {    
+background-image: url(../images/buttons/new.png) !important;
+}
+.erlang {    
+background-image: url(../images/buttons/erlang_icon.gif) !important;
+}
+.database {    
+background-image: url(../images/buttons/database.gif) !important;
+}
+.info {    
+background-image: url(../images/buttons/info.png) !important;
+}
+.option {    
+background-image: url(../images/buttons/use-existing.png) !important;
+}
+.btn-panel td {
+    padding-left:5px;
+}
+
+h2 {
+    color:#083772 !important;
+    margin: 20px 0 0 !important;
+    padding: 5px;
+    background:#eee;
+    width:400px;
+}
+
+h3 {
+    font-weight:normal !important;
+}

@@ -1,0 +1,48 @@
+[{
+    text:'Basic Ext Layouts',
+    expanded: true,
+    children:[{
+        text:'Colleges',
+        id:'colleges-grid',
+        leaf:true
+    },{
+        text:'Department',
+        id:'departments-id',
+        leaf:true
+    },{
+        text:'Subjects',
+        id:'subjects-grid',
+        leaf:true
+    },{
+        text:'Types',
+        id:'types-grid,
+        leaf:true
+    },{
+        text:'Items',
+        id:'items-grid',
+        leaf:true
+    },{
+        text:'Scopes',
+        id:'scopes-grid',
+        leaf:true
+    },{
+        text:'Days',
+        id:'days-grid',
+        leaf:true
+    },{
+        text:'Time',
+        id:'time-grid',
+        leaf:true
+    }]
+},{
+    text:'Custom Layouts',
+    children:[{
+        text:'Courses',
+        id:'courses-grid',
+        leaf:true
+    },{
+        text:'Locations',
+        id:'locations-grid',
+        leaf:true
+    }]
+}]

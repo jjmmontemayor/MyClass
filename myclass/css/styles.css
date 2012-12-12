@@ -1,0 +1,235 @@
+/************
+* MyClass stylesheet ver1.0
+* Date: September 2010
+************/
+
+html {
+background: #fff;
+}
+
+body {
+font-size: 90%;
+font-family: 'Lucida Grande', 'Orator Std', 'Lucida Console', 'Georgia';
+line-height: 1.6em;
+text-align: center;
+color: #990000;
+font-weight: normal;
+}
+
+ul, li, body, html {
+margin: 0;
+padding: 0;
+}
+
+img {
+margin: 3em 0 0 5.5em;
+}
+
+a {
+text-decoration: none;
+color: #990000;
+}
+
+a:hover {
+text-decoration: underline;
+color: #996600;
+}
+
+span {
+font-size: 11px;
+font-weight: normal;
+}
+
+#wrap {
+text-align: left;
+width: 900px;
+margin: auto;
+}
+
+#nav {
+height:50px;
+padding:0;
+border: none;
+}
+
+#nav.navBord {
+border: none;
+}
+
+ul#menu {
+list-style:none;
+margin:0;
+width:900px;
+}
+
+ul#menu li a {
+text-indent:-9999px;
+background:url(../images/menu.png)no-repeat;
+display:block;
+float:left;
+height:50px;
+padding:0;
+margin:0;
+}
+
+ul#menu li a.home {
+width:80px;
+background-position: 0 0;
+}
+
+ul#menu li a.divider {
+width:5px;
+background-position: -80px 0;
+}
+
+ul#menu li a.about-us {
+width:80px;
+background-position: -90px 0;
+}
+
+ul#menu li a.extra {
+width:700px;
+background-position: -180px 0;
+}
+
+ul#menu li a.home:hover {
+background-position: 0 -68px;
+}
+
+ul#menu li a.about-us:hover {
+background-position: -90px -68px;
+}
+
+a {
+outline:none;
+}
+
+#about {
+width: 820px;
+padding: 0 1em;
+margin-top: 1em;
+margin-left: 25px;
+}
+
+#about p {
+color: #996600;
+margin: .2em .2em;
+padding: 1em 1em;
+text-align: justify;
+font-family: 'Tahoma';
+font-size: 11px;
+line-height: 17px; 
+}
+
+/* HEADER */
+
+#header {
+text-align: center;
+padding: 2em 0 2em 0;
+font-family: 'Orator Std';
+font-size: 16px;
+font-weight: bold;
+overflow: hidden;
+margin-bottom: 50px;
+}
+
+/* MAIN CONTENT */
+
+#content-wrap {
+padding: 0;
+}
+
+#content-wrap div{
+overflow: hidden;
+}
+
+#content {
+margin-bottom: 1em;
+}
+
+#content div {
+border: 1px solid #ababab;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+padding: 0 1em;
+}
+
+#content-wrap #content{
+height: 206px;
+padding-top: .6em;
+}
+
+#content #myclass-image {
+height: 209px;
+float: left;
+width: 35%;
+border: none;
+}
+
+#content #login {
+height: 209px;
+margin-left: 40%;
+width: 408px;
+text-align: left;
+position: relative;
+font-family: Georgia;
+font-size: 16px;
+color: #996600;
+}
+
+#content #login p{
+display: block;
+}
+
+#content #login span {
+margin: 0;
+padding: 0;
+}
+
+button {
+color:#990000;
+font:14px Georgia;
+padding:4px 10px;
+cursor:pointer;
+}
+
+
+button:active {
+position:relative;
+top:2px;
+outline:none;
+}
+
+.gradientV{
+    /* fallback (Opera) */
+    background: #ffffff;
+    /* Mozilla: */
+    background: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    /* Chrome, Safari:*/
+    background: -webkit-gradient(linear,
+                left top, left bottom, from(#ffffff), to(#e6e6e6));
+    /* MSIE */
+    filter: progid:DXImageTransform.Microsoft.Gradient(
+                StartColorStr='#ffffff', EndColorStr='#e6e6e6', GradientType=0);
+  }
+
+/* FOOTER SECTION */
+
+#footer {
+clear: both;
+width: 840px;
+margin: auto;
+margin-top: 5em;
+padding-bottom: 2em;
+font-size: 11px;
+font-weight: normal;
+color: #666;
+}
+
+#footer a, #footer span {
+font-family: 'Tahoma';
+}
+
+/*float classes*/
+.float-left{float: left;}
+.float-right {float: right;}

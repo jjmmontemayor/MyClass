@@ -1,0 +1,1 @@
+html, body{		font-family:Arial;        margin:0;        padding:0;        border:0 none;        overflow:hidden;        height:100%;}#header{	background: url(../images/maroon.jpg) repeat-x;	height:40px;	text-transform: uppercase;}#header h1{	color: #ffffff;	padding:10px 0 0 10px;	font-size:15px;}
